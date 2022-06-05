@@ -18,7 +18,7 @@ p {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -52,4 +52,37 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 20px;
+}
+
+.experiece-area {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.box-shadow {
+    box-shadow: 0 8px 6px -6px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+#web-dev-exp {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan) 30;
+    border-image-slice: 1;
+}
+
+#web-dev {
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, rgb(236, 75, 75)) 30;
+    border-image-slice: 1;
 }
